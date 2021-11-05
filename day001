@@ -1,0 +1,8 @@
+"""
+    demo01.py
+"""
+minute = int(input("请输入分钟："))
+hour = int(input("请输入小时："))
+day = int(input("请输入天："))
+result = minute * 60 + hour * 60 * 60 + day * 24 * 60 * 60
+print("一共有：" + str(result) + "秒")
